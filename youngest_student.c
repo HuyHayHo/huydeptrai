@@ -1,3 +1,6 @@
+#include "youngest_student.h"
+#include <stdio.h>
+#include <string.h>
 struct Student findYoungestStudent(struct Student students[], int numOfStudents) {
     struct Student youngestStudent = students[0];
     for (int i = 1; i < numOfStudents; i++) {
